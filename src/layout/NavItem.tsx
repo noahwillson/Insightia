@@ -3,15 +3,18 @@ import { NavLink } from "react-router-dom";
 interface Props {
   path: string;
   text: string;
+  children?: React.ReactNode;
 }
 const NavItem = ({ path, text }: Props) => {
   return (
-    <li>
+    <li className="!px-0">
       <NavLink
         to={path}
         className={({ isActive }) =>
-          `text-xl capitalize transition duration-300 hover:!text-primary hover:bg-transparent focus:!bg-transparent active:!text-gray-600 active:!bg-transparent ${
-            isActive ? "!text-primary" : "!text-gray-600"
+          `text-lg capitalize transition duration-300 hover:!text-[#00a3af] hover:bg-transparent focus:!bg-transparent active:!text-[#00a3af] active:!bg-transparent ${
+            isActive
+              ? "!text-[#00a3af] border-b-4 rounded-tr-full border-[#00a3af]"
+              : "!text-[#333333]"
           }`
         }
       >
