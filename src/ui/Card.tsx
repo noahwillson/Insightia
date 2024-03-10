@@ -1,21 +1,40 @@
-const Card = () => {
+import { IoStarOutline } from "react-icons/io5";
+
+interface Props {
+  cardTitle: string;
+  cardBadge: string;
+  imgSrc: string;
+  imgAlt: string;
+  cardGenre: string;
+  rate: number;
+  price: number;
+}
+const Card = ({
+  cardGenre,
+  cardTitle,
+  cardBadge,
+  imgSrc,
+  imgAlt,
+  rate,
+  price,
+}: Props) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img
-          src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-          alt="Shoes"
-        />
+        <img src={imgSrc} alt={imgAlt} />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">
-          Shoes!
-          <div className="badge !justify-end badge-secondary">NEW</div>
-        </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Fashion</div>
-          <div className="badge badge-outline">Products</div>
+      <div className="card-body gap-4">
+        <div className="flex items-center justify-between">
+          <p className="card-title font-normal text-lg">{cardGenre}</p>
+          <div className="badge !justify-end badge-secondary">{cardBadge}</div>
+        </div>
+        <h2 className="card-title">{cardTitle}</h2>
+        <div className="card-actions justify-between mt-4">
+          <div className="flex items-center text-2xl ">
+            <IoStarOutline className="" />
+            <p className="ml-1">{rate}</p>
+          </div>
+          <div className="text-2xl">${price}</div>
         </div>
       </div>
     </div>
