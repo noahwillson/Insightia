@@ -1,7 +1,10 @@
 const courses = {
   recommended: [
     {
+      id: 1,
       title: "The Complete JavaScript Course 2022: From Zero to Expert!",
+      author: "Jonas Schmedtmann",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Beginner Level",
       category: "JavaScript",
       image:
@@ -11,6 +14,16 @@ const courses = {
         rate: 0,
       },
       price: 200,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
       title: "Python for Data Science and Machine Learning Bootcamp",
