@@ -1,5 +1,5 @@
-import Card from "../ui/Card";
-import courses from "../data/Courses";
+import Card from "../../ui/Card";
+import courses from "../../data/Courses";
 
 const recommended = courses.recommended;
 

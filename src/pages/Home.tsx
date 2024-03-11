@@ -1,4 +1,4 @@
-import Recommended from "../components/Recommended";
+import Recommended from "../components/Hero/Recommended";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Home = () => {
