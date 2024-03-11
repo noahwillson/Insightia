@@ -26,7 +26,10 @@ const courses = {
       ],
     },
     {
+      id: 2,
       title: "Python for Data Science and Machine Learning Bootcamp",
+      author: "Krish Naik",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026703d",
       badge: "Intermediate Level",
       category: "Python",
       image:
@@ -36,9 +39,22 @@ const courses = {
         rate: 0,
       },
       price: 180,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 3,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Jonas Schmedtmann",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "10% Off",
       category: "Web Development",
       image:
@@ -48,9 +64,22 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 4,
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      author: "Maximilian Schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "20% Off",
       category: "React",
       image:
@@ -60,9 +89,22 @@ const courses = {
         rate: 0,
       },
       price: 180,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 5,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Jonas Schmedtmann",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Web Development",
       image: "https://example.com/image.jpg",
@@ -71,9 +113,22 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 6,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Jonas Schmedtmann",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Web Development",
       image: "https://example.com/image.jpg",
@@ -82,34 +137,24 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
-    {
-      title: "The Complete 2022 Web Development Bootcamp",
-      badge: "Web Development",
-      category: "Web Development",
-      image: "https://example.com/image.jpg",
-      rating: {
-        count: 0,
-        rate: 0,
-      },
-      price: 250,
-    },
-    {
-      title: "The Complete 2022 Web Development Bootcamp",
-      badge: "Web Development",
-      category: "Web Development",
-      image: "https://example.com/image.jpg",
-      rating: {
-        count: 0,
-        rate: 0,
-      },
-      price: 250,
-    },
-    // Add more recommended courses here...
   ],
   trending: [
     {
+      id: 7,
       title: "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+      author: "Kirill Eremenko",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Data Science",
       category: "Machine Learning",
       image:
@@ -119,9 +164,22 @@ const courses = {
         rate: 0,
       },
       price: 150,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 8,
       title: "Angular - The Complete Guide (2022 Edition)",
+      author: "Maximilian Schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Angular",
       image: "https://www.sipexe.com/assets/courses/Angular.jpg",
@@ -130,9 +188,22 @@ const courses = {
         rate: 0,
       },
       price: 220,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 9,
       title: "Java Programming Masterclass for Software Developers",
+      author: "Tim Buchalka",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Software Development",
       category: "Java",
       image:
@@ -142,9 +213,22 @@ const courses = {
         rate: 0,
       },
       price: 210,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 10,
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      author: "Maximilian Schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "React",
       image:
@@ -154,9 +238,22 @@ const courses = {
         rate: 0,
       },
       price: 180,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 11,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Web Development",
       image: "https://example.com/image.jpg",
@@ -165,9 +262,22 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 12,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Web Development",
       image: "https://example.com/image.jpg",
@@ -176,12 +286,25 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     // Add more trending courses here...
   ],
   popular: [
     {
+      id: 13,
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "React",
       image:
@@ -191,9 +314,22 @@ const courses = {
         rate: 0,
       },
       price: 180,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 14,
       title: "Java Programming Masterclass for Software Developers",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Software Development",
       category: "Java",
       image:
@@ -203,9 +339,22 @@ const courses = {
         rate: 0,
       },
       price: 210,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 15,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Web Development",
       image:
@@ -215,9 +364,22 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 16,
       title: "Angular - The Complete Guide (2022 Edition)",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Angular",
       image: "https://www.sipexe.com/assets/courses/Angular.jpg",
@@ -226,9 +388,22 @@ const courses = {
         rate: 0,
       },
       price: 220,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 17,
       title: "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Data Science",
       category: "Machine Learning",
       image: "https://example.com/image.jpg",
@@ -237,9 +412,22 @@ const courses = {
         rate: 0,
       },
       price: 150,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 18,
       title: "The Complete JavaScript Course 2022: From Zero to Expert!",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "JavaScript",
       image:
@@ -249,9 +437,22 @@ const courses = {
         rate: 0,
       },
       price: 200,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
     {
+      id: 19,
       title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
       category: "Web Development",
       image: "https://example.com/image.jpg",
@@ -260,8 +461,140 @@ const courses = {
         rate: 0,
       },
       price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
     },
-    // Add more popular courses here...
+  ],
+  related: [
+    {
+      id: 20,
+      title: "The Complete JavaScript Course 2022: From Zero to Expert!",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      badge: "Web Development",
+      category: "JavaScript",
+      image:
+        "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      rating: {
+        count: 0,
+        rate: 0,
+      },
+      price: 200,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
+    },
+    {
+      id: 21,
+      title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      badge: "Web Development",
+      category: "Web Development",
+      image: "https://example.com/image.jpg",
+      rating: {
+        count: 0,
+        rate: 0,
+      },
+      price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
+    },
+    {
+      id: 22,
+      title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      badge: "Web Development",
+      category: "Web Development",
+      image: "https://example.com/image.jpg",
+      rating: {
+        count: 0,
+        rate: 0,
+      },
+      price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
+    },
+    {
+      id: 23,
+      title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      badge: "Web Development",
+      category: "Web Development",
+      image: "https://example.com/image.jpg",
+      rating: {
+        count: 0,
+        rate: 0,
+      },
+      price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
+    },
+    {
+      id: 24,
+      title: "The Complete 2022 Web Development Bootcamp",
+      author: "Maximilian schwarzmüller",
+      authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+      badge: "Web Development",
+      category: "Web Development",
+      image: "https://example.com/image.jpg",
+      rating: {
+        count: 0,
+        rate: 0,
+      },
+      price: 250,
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      benfits: [
+        "14 Hours of Content",
+        "Full Lifetime Access",
+        "Access to 200+ Experts",
+        "Certificate of Completion",
+        "24/7 Support",
+        "Native Teacher",
+      ],
+    },
   ],
 };
 
