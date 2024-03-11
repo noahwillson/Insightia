@@ -20,7 +20,7 @@ const Card = ({
 }: Props) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
-      <figure>
+      <figure className="w-full h-40">
         <img src={imgSrc} alt={imgAlt} />
       </figure>
       <div className="card-body gap-4">
@@ -28,7 +28,7 @@ const Card = ({
           <p className="card-title font-normal text-lg">{cardGenre}</p>
           <div className="badge !justify-end badge-secondary">{cardBadge}</div>
         </div>
-        <h2 className="card-title">{cardTitle}</h2>
+        <h2 className="card-title max-w-auto truncate">{cardTitle}</h2>
         <div className="card-actions justify-between mt-4">
           <div className="flex items-center text-2xl ">
             <IoStarOutline className="" />
