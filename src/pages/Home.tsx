@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { GoDot, GoDotFill } from "react-icons/go";
 import { useState } from "react";
 import Popular from "../components/Courses/Popular";
+import Trending from "../components/Courses/Trending";
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false);
@@ -58,15 +59,25 @@ const Home = () => {
             <GoDot className="w-6 h-6" />
           </a>
         </div>
-        <div className="flex justify-between py-4 items-center">
+        <div className="flex justify-between pt-40 items-center">
           <h1 className="text-2xl font-bold">Popular courses</h1>
           <button className="items-center justify-between flex">
             View all
             <IoIosArrowForward className="ml-1" />
           </button>
         </div>
-        <div className="">
+        <div className="py-5">
           <Popular />
+        </div>
+        <div className="flex justify-between pt-14 items-center">
+          <h1 className="text-2xl font-bold">Trending courses</h1>
+          <button className="items-center justify-between flex">
+            View all
+            <IoIosArrowForward className="ml-1" />
+          </button>
+        </div>
+        <div className="py-5">
+          <Trending />
         </div>
       </div>
     </div>

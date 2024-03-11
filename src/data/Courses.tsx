@@ -132,7 +132,8 @@ const courses = {
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       badge: "Web Development",
       category: "React",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://www.classcentral.com/report/wp-content/uploads/2022/10/React-JS-BCG-Banner.png",
       rating: {
         count: 0,
         rate: 0,
@@ -168,7 +169,8 @@ const courses = {
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       badge: "Web Development",
       category: "React",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://www.classcentral.com/report/wp-content/uploads/2022/10/React-JS-BCG-Banner.png",
       rating: {
         count: 0,
         rate: 0,
