@@ -1,4 +1,4 @@
-import CourseDetails from "../components/Courses/CourseDetails";
+import CourseDetails from "../components/CourseDetails/CourseDetails";
 
 const CoursesDetails = () => {
   return (
