@@ -2,7 +2,7 @@ const courses = {
   recommended: [
     {
       title: "The Complete JavaScript Course 2022: From Zero to Expert!",
-      badge: "Web Development",
+      badge: "Beginner Level",
       category: "JavaScript",
       image:
         "https://cyberhoot.com/wp-content/uploads/2020/07/Free-Courses-to-learn-JavaScript-1024x576.jpg",
@@ -14,7 +14,7 @@ const courses = {
     },
     {
       title: "Python for Data Science and Machine Learning Bootcamp",
-      badge: "Data Science",
+      badge: "Intermediate Level",
       category: "Python",
       image:
         "https://images.datacamp.com/image/upload/f_auto,q_auto:best/v1603718736/Why_Your_Company_Needs_Python_for_Business_Analytics_xzzles.png",
@@ -26,7 +26,7 @@ const courses = {
     },
     {
       title: "The Complete 2022 Web Development Bootcamp",
-      badge: "Web Development",
+      badge: "10% Off",
       category: "Web Development",
       image:
         "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040425.jpg?t=st=1710128377~exp=1710131977~hmac=6986f6fe84b7bc5a9afba401b314d8e9341bf62fd7acab18103051286e9b8acb&w=1380",
@@ -38,7 +38,7 @@ const courses = {
     },
     {
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-      badge: "Web Development",
+      badge: "20% Off",
       category: "React",
       image:
         "https://www.classcentral.com/report/wp-content/uploads/2022/10/React-JS-BCG-Banner.png",

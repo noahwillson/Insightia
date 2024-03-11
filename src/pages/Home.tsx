@@ -1,27 +1,19 @@
-import Card from "../ui/Card";
-import courses from "../data/Courses";
+import Recommended from "../components/Recommended";
+import { IoIosArrowForward } from "react-icons/io";
 
-const recommended = courses.recommended;
 const Home = () => {
   return (
-    <div className="flex px-52 py-20 justify-start">
-      <div className="flex flex-col gap-4 items-center justify-start">
-        <div className="flex flex-row gap-4">
-          {recommended.map(
-            (course, index) =>
-              index < 4 && (
-                <Card
-                  key={course.title}
-                  cardTitle={course.title}
-                  cardBadge={course.badge}
-                  imgSrc={course.image}
-                  imgAlt={course.title}
-                  cardGenre={course.category}
-                  rate={course.rating.rate}
-                  price={course.price}
-                />
-              )
-          )}
+    <div className="flex lg:px-52 py-11 justify-center items-center">
+      <div className="flex flex-col justify-center">
+        <div className="flex justify-between pb-4 items-center">
+          <h1 className="text-2xl font-bold">Recommended for you</h1>
+          <button className="items-center justify-between flex">
+            View all
+            <IoIosArrowForward className="ml-1" />
+          </button>
+        </div>
+        <div className="">
+          <Recommended />
         </div>
       </div>
     </div>
