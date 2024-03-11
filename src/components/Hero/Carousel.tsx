@@ -11,28 +11,28 @@ const Carousel = () => {
           Explore more
         </button>
       </div>
-      <div className="carousel w-1/2 h-[361px]">
+      <div className="carousel w-[550px] h-[361px]">
         <div id="item1" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+            src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TPwGgdePa9RHvrQ5.png"
             className="w-full"
           />
         </div>
         <div id="item2" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+            src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*EcR05iUklm-XGr-Z.png"
             className="w-full"
           />
         </div>
         <div id="item3" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+            src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*BX-8jDQ_-DxuLuzf.png"
             className="w-full"
           />
         </div>
         <div id="item4" className="carousel-item w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+            src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*3o6sNdHNYTOGMn-I.png"
             className="w-full"
           />
         </div>

@@ -99,7 +99,8 @@ const courses = {
       title: "Machine Learning A-Z™: Hands-On Python & R In Data Science",
       badge: "Data Science",
       category: "Machine Learning",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://ksr-ugc.imgix.net/assets/015/692/357/198315f4d17ce60015e925ba74b7e9d5_original.jpg?ixlib=rb-4.1.0&crop=faces&w=1552&h=873&fit=crop&v=1488338170&auto=format&frame=1&q=92&s=6e422694d2962f4cc6bd66bc71df7e4c",
       rating: {
         count: 0,
         rate: 0,
@@ -110,7 +111,7 @@ const courses = {
       title: "Angular - The Complete Guide (2022 Edition)",
       badge: "Web Development",
       category: "Angular",
-      image: "https://example.com/image.jpg",
+      image: "https://www.sipexe.com/assets/courses/Angular.jpg",
       rating: {
         count: 0,
         rate: 0,
@@ -121,7 +122,8 @@ const courses = {
       title: "Java Programming Masterclass for Software Developers",
       badge: "Software Development",
       category: "Java",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://www.trycatchclasses.com/wp-content/uploads/2020/02/Java.jpg",
       rating: {
         count: 0,
         rate: 0,
@@ -181,7 +183,8 @@ const courses = {
       title: "Java Programming Masterclass for Software Developers",
       badge: "Software Development",
       category: "Java",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://www.trycatchclasses.com/wp-content/uploads/2020/02/Java.jpg",
       rating: {
         count: 0,
         rate: 0,
@@ -192,7 +195,8 @@ const courses = {
       title: "The Complete 2022 Web Development Bootcamp",
       badge: "Web Development",
       category: "Web Development",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://www.classcentral.com/report/wp-content/uploads/2022/04/BCG-Web-Development-NEW-Banner.png",
       rating: {
         count: 0,
         rate: 0,
@@ -203,7 +207,7 @@ const courses = {
       title: "Angular - The Complete Guide (2022 Edition)",
       badge: "Web Development",
       category: "Angular",
-      image: "https://example.com/image.jpg",
+      image: "https://www.sipexe.com/assets/courses/Angular.jpg",
       rating: {
         count: 0,
         rate: 0,
