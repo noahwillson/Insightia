@@ -5,7 +5,7 @@ const courses = {
       badge: "Web Development",
       category: "JavaScript",
       image:
-        "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cyberhoot.com/wp-content/uploads/2020/07/Free-Courses-to-learn-JavaScript-1024x576.jpg",
       rating: {
         count: 0,
         rate: 0,
@@ -16,7 +16,8 @@ const courses = {
       title: "Python for Data Science and Machine Learning Bootcamp",
       badge: "Data Science",
       category: "Python",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://images.datacamp.com/image/upload/f_auto,q_auto:best/v1603718736/Why_Your_Company_Needs_Python_for_Business_Analytics_xzzles.png",
       rating: {
         count: 0,
         rate: 0,
@@ -27,7 +28,8 @@ const courses = {
       title: "The Complete 2022 Web Development Bootcamp",
       badge: "Web Development",
       category: "Web Development",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040425.jpg?t=st=1710128377~exp=1710131977~hmac=6986f6fe84b7bc5a9afba401b314d8e9341bf62fd7acab18103051286e9b8acb&w=1380",
       rating: {
         count: 0,
         rate: 0,
@@ -38,7 +40,8 @@ const courses = {
       title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       badge: "Web Development",
       category: "React",
-      image: "https://example.com/image.jpg",
+      image:
+        "https://www.classcentral.com/report/wp-content/uploads/2022/10/React-JS-BCG-Banner.png",
       rating: {
         count: 0,
         rate: 0,

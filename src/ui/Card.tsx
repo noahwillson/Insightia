@@ -20,7 +20,7 @@ const Card = ({
 }: Props) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
-      <figure className="w-full h-40">
+      <figure className="w-full h-44">
         <img src={imgSrc} alt={imgAlt} />
       </figure>
       <div className="card-body gap-4">
