@@ -1,3 +1,4 @@
+import ClassInformation from "../components/CourseDetails/ImageSection";
 import ReviewSection from "../components/CourseDetails/ReviewSection";
 
 const DetailsPage = () => {
@@ -21,7 +22,7 @@ const DetailsPage = () => {
             <div className="self-stretch my-auto">(99 reviews)</div>
             <div className="self-stretch my-auto">|</div>
             <div className="grow self-stretch my-auto whitespace-nowrap">
-              Klara Weaver
+              Clara Weaver
             </div>
           </div>
           <div className="flex gap-3 whitespace-nowrap">
@@ -45,48 +46,7 @@ const DetailsPage = () => {
         </div>
       </div>
       <div className="flex py-8">
-        <div className="mt-6 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-[65%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow text-sm leading-5 text-gray-600 max-md:mt-5 max-md:max-w-full">
-                <img
-                  loading="lazy"
-                  srcSet="https://img.freepik.com/free-vector/online-tutorials-concept_52683-37480.jpg"
-                  className="w-full aspect-[1.82] max-md:max-w-full"
-                />
-                <div className="flex gap-0 justify-center self-start px-0.5 mt-5 bg-black bg-opacity-0 max-md:flex-wrap">
-                  <div className="flex flex-col flex-1 justify-end pt-6 font-bold whitespace-nowrap bg-black bg-opacity-0 text-zinc-900">
-                    <div>Class description</div>
-                    <div className="shrink-0 mt-5 h-1 bg-zinc-900" />
-                  </div>
-                  <div className="grow justify-center px-3 py-6 bg-black bg-opacity-0">
-                    Benefits{" "}
-                  </div>
-                  <div className="grow justify-center px-3 py-6 whitespace-nowrap bg-black bg-opacity-0">
-                    Reviews (99)
-                  </div>
-                  <div className="grow justify-center px-3 py-6 whitespace-nowrap bg-black bg-opacity-0">
-                    Related courses
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-[35%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col max-md:mt-5">
-                <img
-                  loading="lazy"
-                  srcSet="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
-                  className="w-full aspect-[2.13]"
-                />
-                <img
-                  loading="lazy"
-                  srcSet="https://cdn.elearningindustry.com/wp-content/uploads/2020/02/what-to-check-before-an-online-course-purchase.png"
-                  className="mt-5 w-full aspect-[2.08]"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <ClassInformation />
       </div>
       <div className="py-8">
         <div className="max-md:max-w-full">
@@ -136,7 +96,8 @@ const DetailsPage = () => {
                             className="shrink-0 w-6 aspect-square"
                           />
                           <div className="flex-auto my-auto">
-                            N<span className="leading-none">ative teacher</span>
+                            N
+                            <span className="leading-none">Native teacher</span>
                           </div>
                         </div>
                         <div className="flex gap-2 mt-4">
@@ -151,7 +112,7 @@ const DetailsPage = () => {
                           </div>
                         </div>
                         <div className="mt-14 text-xl font-bold leading-none max-md:mt-10">
-                          R<span className="leading-none">eviews</span>
+                          R<span className="leading-none">Reviews</span>
                         </div>
                         <div className="flex gap-1 mt-7 leading-[157%]">
                           <div className="flex gap-0 font-bold whitespace-nowrap">
@@ -190,7 +151,7 @@ const DetailsPage = () => {
                           <div className="grow my-auto">
                             Ce
                             <span className="leading-none">
-                              rtificate of complete
+                              Certificate of complete
                             </span>
                           </div>
                         </div>
@@ -220,7 +181,7 @@ const DetailsPage = () => {
                     </div>
                     <div className="flex gap-4 mt-9">
                       <div className="flex-auto my-auto text-sm leading-none text-zinc-900">
-                        D<span className="leading-none">ocument</span>
+                        D<span className="leading-none">Document</span>
                       </div>
                       <div className="flex flex-col flex-1 justify-center text-xs leading-5 text-white whitespace-nowrap bg-black bg-opacity-0">
                         <div className="justify-center px-2 py-2.5 bg-gray-600 rounded-2xl">

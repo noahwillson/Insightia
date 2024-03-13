@@ -4,6 +4,7 @@ interface Props {
   path: string;
   text: string;
   children?: React.ReactNode;
+  className?: string;
 }
 const NavItem = ({ path, text }: Props) => {
   return (
