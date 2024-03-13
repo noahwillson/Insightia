@@ -1,5 +1,6 @@
 import Card from "../../ui/Card";
 import courses from "../../data/Courses";
+import { Link } from "react-router-dom";
 
 const recommended = courses.recommended;
 
@@ -9,16 +10,18 @@ const Recommended = () => {
       {recommended.map(
         (course, index) =>
           index < 4 && (
-            <Card
-              key={course.title}
-              cardTitle={course.title}
-              cardBadge={course.badge}
-              imgSrc={course.image}
-              imgAlt={course.title}
-              cardGenre={course.category}
-              rate={course.rating.rate}
-              price={course.price}
-            />
+            <Link to={`/courses/${course.id}`} key={course.id}>
+              <Card
+                key={course.title}
+                cardTitle={course.title}
+                cardBadge={course.badge}
+                imgSrc={course.image}
+                imgAlt={course.title}
+                cardGenre={course.category}
+                rate={course.rating.rate}
+                price={course.price}
+              />
+            </Link>
           )
       )}
     </div>
