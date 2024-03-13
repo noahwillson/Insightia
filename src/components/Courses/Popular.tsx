@@ -1,5 +1,6 @@
 import courses from "../../data/Courses";
-import Card from "../../ui/Card";
+import { Link } from "react-router-dom";
+import CourseCard from "../../ui/CourseCard";
 
 const Popular = () => {
   const popular = courses.popular;
@@ -8,16 +9,18 @@ const Popular = () => {
       {popular.map(
         (course, index) =>
           index < 4 && (
-            <Card
-              key={course.title}
-              cardTitle={course.title}
-              cardBadge={course.badge}
-              imgSrc={course.image}
-              imgAlt={course.title}
-              cardGenre={course.category}
-              rate={course.rating.rate}
-              price={course.price}
-            />
+            <Link to={`/courses/${course.id}`} key={course.id}>
+              <CourseCard
+                key={course.title}
+                cardTitle={course.title}
+                cardBadge={course.badge}
+                imgSrc={course.image}
+                imgAlt={course.title}
+                cardGenre={course.category}
+                rate={course.rating.rate}
+                price={course.price}
+              />
+            </Link>
           )
       )}
     </div>

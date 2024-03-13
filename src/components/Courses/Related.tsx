@@ -2,11 +2,12 @@ import courses from "../../data/Courses";
 import { Link } from "react-router-dom";
 import CourseCard from "../../ui/CourseCard";
 
-const Trending = () => {
-  const trending = courses.trending;
+const related = courses.related;
+
+const Related = () => {
   return (
     <div className="flex flex-row gap-4">
-      {trending.map(
+      {related.map(
         (course, index) =>
           index < 4 && (
             <Link to={`/courses/${course.id}`} key={course.id}>
@@ -27,4 +28,4 @@ const Trending = () => {
   );
 };
 
-export default Trending;
+export default Related;

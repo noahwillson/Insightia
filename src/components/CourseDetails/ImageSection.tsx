@@ -41,9 +41,10 @@ const ClassInformation: React.FC = () => {
               alt="Class overview image"
               className="aspect-[1.82] max-md:max-w-full"
             />
-            <nav className="flex gap-0 justify-center self-start px-0.5 mt-5 bg-black bg-opacity-0 max-md:flex-wrap list-none">
-              <SectionComponent title="Class description" content="Benefits" />
-              <SectionComponent title="Reviews" content="99 Reviews" />
+            <nav className="flex gap-2 justify-center self-start px-0.5 mt-5 bg-black bg-opacity-0 max-md:flex-wrap list-none">
+              <SectionComponent title="Class description" content="" />
+              <SectionComponent title="Benefits" content="" />
+              <SectionComponent title="Reviews (99 Reviews)" content="" />
               <SectionComponent title="Related courses" content="" />
             </nav>
           </article>

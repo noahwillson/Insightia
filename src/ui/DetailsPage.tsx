@@ -1,5 +1,6 @@
 import ClassInformation from "../components/CourseDetails/ImageSection";
 import ReviewSection from "../components/CourseDetails/ReviewSection";
+import Related from "../components/Courses/Related";
 
 const DetailsPage = () => {
   return (
@@ -32,7 +33,7 @@ const DetailsPage = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/49ec5d6723662508be6847cbb8838e62cb700e918a2e949011a7077366c0bf07?"
                 className="shrink-0 w-4 aspect-square"
               />
-              <div className="grow my-auto">Share</div>
+              <button className="grow my-auto">Share</button>
             </div>
             <div className="flex gap-1.5 justify-center px-5 py-2.5 text-white bg-gray-600">
               <img
@@ -40,7 +41,7 @@ const DetailsPage = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4020efbafd152b84d28de1258b324b616e74f500dd8211ade8c6882dd52ff28?"
                 className="shrink-0 w-4 aspect-square"
               />
-              <div className="my-auto">Save</div>
+              <button className="my-auto">Save</button>
             </div>
           </div>
         </div>
@@ -229,6 +230,9 @@ const DetailsPage = () => {
       </div>
       <div className="py-8">
         <ReviewSection />
+      </div>
+      <div className="py-8">
+        <Related />
       </div>
     </>
   );
