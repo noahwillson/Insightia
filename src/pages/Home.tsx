@@ -5,6 +5,7 @@ import { GoDot, GoDotFill } from "react-icons/go";
 import { useState } from "react";
 import Popular from "../components/Courses/Popular";
 import Trending from "../components/Courses/Trending";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false);
@@ -18,10 +19,12 @@ const Home = () => {
       <div className="flex flex-col justify-center">
         <div className="flex justify-between pb-4 items-center">
           <h1 className="text-2xl font-bold">Recommended for you</h1>
-          <button className="items-center justify-between flex">
-            View all
-            <IoIosArrowForward className="ml-1" />
-          </button>
+          <Link to="/courses">
+            <button className="items-center justify-between flex">
+              View all
+              <IoIosArrowForward className="ml-1" />
+            </button>
+          </Link>
         </div>
         <div className="">
           <Recommended />
@@ -61,20 +64,24 @@ const Home = () => {
         </div>
         <div className="flex justify-between pt-40 items-center">
           <h1 className="text-2xl font-bold">Popular courses</h1>
-          <button className="items-center justify-between flex">
-            View all
-            <IoIosArrowForward className="ml-1" />
-          </button>
+          <Link to="/courses">
+            <button className="items-center justify-between flex">
+              View all
+              <IoIosArrowForward className="ml-1" />
+            </button>
+          </Link>
         </div>
         <div className="py-5">
           <Popular />
         </div>
         <div className="flex justify-between pt-14 items-center">
           <h1 className="text-2xl font-bold">Trending courses</h1>
-          <button className="items-center justify-between flex">
-            View all
-            <IoIosArrowForward className="ml-1" />
-          </button>
+          <Link to="/courses">
+            <button className="items-center justify-between flex">
+              View all
+              <IoIosArrowForward className="ml-1" />
+            </button>
+          </Link>
         </div>
         <div className="py-5">
           <Trending />

@@ -1,6 +1,6 @@
 import courses from "../../data/Courses";
 import { Link } from "react-router-dom";
-import CourseCard from "../../ui/CourseCard";
+import Card from "../../ui/Card";
 
 const Trending = () => {
   const trending = courses.trending;
@@ -10,7 +10,7 @@ const Trending = () => {
         (course, index) =>
           index < 4 && (
             <Link to={`/courses/${course.id}`} key={course.id}>
-              <CourseCard
+              <Card
                 key={course.title}
                 cardTitle={course.title}
                 cardBadge={course.badge}

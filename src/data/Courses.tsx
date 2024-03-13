@@ -177,7 +177,8 @@ const courses = {
     },
     {
       id: 8,
-      title: "Angular - The Complete Guide (2022 Edition)",
+      title:
+        "Angular - The Complete Guide (2022 Edition): From Zero to Expert!",
       author: "Maximilian Schwarzmüller",
       authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
@@ -377,7 +378,8 @@ const courses = {
     },
     {
       id: 16,
-      title: "Angular - The Complete Guide (2022 Edition)",
+      title:
+        "Angular - The Complete Guide (2022 Edition): From Zero to Expert!",
       author: "Maximilian schwarzmüller",
       authorAvatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
       badge: "Web Development",
