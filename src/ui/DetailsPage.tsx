@@ -1,6 +1,5 @@
 import ClassInformation from "../components/CourseDetails/ImageSection";
 import ReviewSection from "../components/CourseDetails/ReviewSection";
-import Related from "../components/Courses/Related";
 
 const DetailsPage = () => {
   return (
@@ -230,9 +229,6 @@ const DetailsPage = () => {
       </div>
       <div className="py-8">
         <ReviewSection />
-      </div>
-      <div className="py-8">
-        <Related />
       </div>
     </>
   );
