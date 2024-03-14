@@ -17,7 +17,7 @@ type SectionProps = {
 };
 
 const SectionComponent: React.FC<SectionProps> = ({ title, content }) => (
-  <section className="flex flex-col flex-1 justify-end pt-6 font-bold whitespace-nowrap bg-black bg-opacity-0 text-zinc-900">
+  <section className="flex flex-col flex-1 justify-end pt-6 px-3 font-bold whitespace-nowrap bg-black bg-opacity-0 text-zinc-900">
     {/* <h2>{title}</h2>
     <div className="shrink-0 mt-5 h-1 bg-zinc-900" />
     <p>{content}</p> */}
@@ -42,7 +42,7 @@ const ClassInformation: React.FC = () => {
               className="aspect-[1.82] max-md:max-w-full"
             />
             <nav className="flex gap-2 justify-center self-start px-0.5 mt-5 bg-black bg-opacity-0 max-md:flex-wrap list-none">
-              <SectionComponent title="Class description" content="" />
+              <SectionComponent title="description" content="" />
               <SectionComponent title="Benefits" content="" />
               <SectionComponent title="Reviews (99 Reviews)" content="" />
               <SectionComponent title="Related courses" content="" />

@@ -1,13 +1,33 @@
 import ClassInformation from "../components/CourseDetails/ImageSection";
 import ReviewSection from "../components/CourseDetails/ReviewSection";
 
-const DetailsPage = () => {
+interface DetailsPageProps {
+  courseTitle: string;
+  courseCategory: string;
+  courseGenre: string;
+  rate: number;
+  rateCount: number;
+  author: string;
+  price: number;
+}
+
+const DetailsPage = ({
+  courseCategory,
+  courseGenre,
+  courseTitle,
+  rate,
+  rateCount,
+  author,
+  price,
+}: DetailsPageProps) => {
   return (
     <>
       <div className="flex">
         <div className="flex flex-col">
-          <h5>Home/ Design / UI/UX Design</h5>
-          <h1 className="text-3xl font-bold pt-5 pb-4">UI/UX Design</h1>
+          <h5>
+            Home/ {courseCategory} / {courseGenre}
+          </h5>
+          <h1 className="text-3xl font-bold pt-5 pb-4">{courseTitle}</h1>
         </div>
       </div>
       <div className="flex flex-row items-center gap-1">
@@ -18,11 +38,11 @@ const DetailsPage = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/570ac1a3b16ab7df4a00ac2845e9cc716a43b2387791aa17a7621c8acdec7920?"
               className="shrink-0 self-stretch w-5 aspect-square"
             />
-            <div className="self-stretch my-auto font-bold">4.5</div>
-            <div className="self-stretch my-auto">(99 reviews)</div>
+            <div className="self-stretch my-auto font-bold">{rate}</div>
+            <div className="self-stretch my-auto">({rateCount})</div>
             <div className="self-stretch my-auto">|</div>
             <div className="grow self-stretch my-auto whitespace-nowrap">
-              Clara Weaver
+              {author}
             </div>
           </div>
           <div className="flex gap-3 whitespace-nowrap">
@@ -70,7 +90,7 @@ const DetailsPage = () => {
                   elementum, urna.{" "}
                 </div>
                 <div className="mt-12 text-xl font-bold leading-none text-zinc-900 max-md:mt-10 max-md:max-w-full">
-                  Be<span className="leading-none">nefits</span>
+                  <span className="leading-none">Benefits</span>
                 </div>
                 <div className="mt-6 max-md:pr-5 max-md:max-w-full">
                   <div className="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -83,9 +103,8 @@ const DetailsPage = () => {
                             className="shrink-0 w-6 aspect-square"
                           />
                           <div className="grow my-auto">
-                            1
                             <span className="leading-none">
-                              4 hours on-demand video
+                              14 hours on-demand video
                             </span>
                           </div>
                         </div>
@@ -96,7 +115,6 @@ const DetailsPage = () => {
                             className="shrink-0 w-6 aspect-square"
                           />
                           <div className="flex-auto my-auto">
-                            N
                             <span className="leading-none">Native teacher</span>
                           </div>
                         </div>
@@ -107,12 +125,13 @@ const DetailsPage = () => {
                             className="shrink-0 w-6 aspect-square"
                           />
                           <div className="flex-auto my-auto">
-                            100%
-                            <span className="leading-none"> free document</span>
+                            <span className="leading-none">
+                              100% free document
+                            </span>
                           </div>
                         </div>
                         <div className="mt-14 text-xl font-bold leading-none max-md:mt-10">
-                          R<span className="leading-none">Reviews</span>
+                          <span className="leading-none">Reviews</span>
                         </div>
                         <div className="flex gap-1 mt-7 leading-[157%]">
                           <div className="flex gap-0 font-bold whitespace-nowrap">
@@ -121,9 +140,9 @@ const DetailsPage = () => {
                               src="https://cdn.builder.io/api/v1/image/assets/TEMP/13f1d4a3a3907cf2ee9156da1a56a3df34761a3323d125d85342596731a0d06c?"
                               className="shrink-0 w-5 aspect-square"
                             />
-                            <div className="grow my-auto">4.5</div>
+                            <div className="grow my-auto">{rate}</div>
                           </div>
-                          <div className="flex-auto">(99 reviews)</div>
+                          <div className="flex-auto">({rateCount})</div>
                         </div>
                       </div>
                     </div>
@@ -136,9 +155,8 @@ const DetailsPage = () => {
                             className="shrink-0 w-6 aspect-square"
                           />
                           <div className="grow my-auto">
-                            F
                             <span className="leading-none">
-                              ull lifetime access
+                              Full lifetime access
                             </span>
                           </div>
                         </div>
@@ -149,7 +167,6 @@ const DetailsPage = () => {
                             className="shrink-0 w-6 aspect-square"
                           />
                           <div className="grow my-auto">
-                            Ce
                             <span className="leading-none">
                               Certificate of complete
                             </span>
@@ -174,14 +191,14 @@ const DetailsPage = () => {
                 <div className="flex gap-5 justify-between items-start px-px">
                   <div className="flex flex-col">
                     <div className="text-base font-bold leading-7 whitespace-nowrap text-zinc-900">
-                      UX: Design with a User...
+                      {courseTitle}
                     </div>
                     <div className="mt-6 text-sm leading-none text-zinc-900">
                       Course (12 lessons)
                     </div>
                     <div className="flex gap-4 mt-9">
                       <div className="flex-auto my-auto text-sm leading-none text-zinc-900">
-                        D<span className="leading-none">Document</span>
+                        <span className="leading-none">Document</span>
                       </div>
                       <div className="flex flex-col flex-1 justify-center text-xs leading-5 text-white whitespace-nowrap bg-black bg-opacity-0">
                         <div className="justify-center px-2 py-2.5 bg-gray-600 rounded-2xl">
@@ -197,10 +214,10 @@ const DetailsPage = () => {
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/a72eb4e9ecc669364d8d7340af4a8250a5b62fbdd8c63f044bd3f2240b9149aa?"
                         className="shrink-0 w-5 aspect-square"
                       />
-                      <div className="grow my-auto">4.5</div>
+                      <div className="grow my-auto">{rate}</div>
                     </div>
                     <div className="flex flex-col pl-4 mt-7">
-                      <div>$49</div>
+                      <div>${price}</div>
                       <div className="mt-8">0</div>
                     </div>
                   </div>
